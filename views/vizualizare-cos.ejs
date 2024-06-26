@@ -1,0 +1,38 @@
+<body>
+    <div class="container mt-5">
+        <h1>Continutul Cosului</h1>
+        <% if (cos.length> 0) { %>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produs</th>
+                        <th>Cantitate</th>
+                        <th>Pret/unitate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% cos.forEach(function(produs) { %>
+                        <tr>
+                            <td style="padding-right: 50px;">
+                                <%= produs.Nume %>
+                            </td>
+                            <td style="padding-right: 70px;">
+                                <%= produs.Cantitate %>
+                            </td>
+                            <td style="padding-right: 50px;">
+                                <%= produs.Pret %>
+                            </td>
+                        </tr>
+                        <% }); %>
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <br />
+            <p>Total: <%= total.toFixed(2) %> Lei</p>
+            <button class="btn btn-danger" disabled>Plaseaza Comanda</button>
+            <% } else { %>
+                <p>Cosul tau este gol</p>
+                <% } %>
+    </div>
+</body>

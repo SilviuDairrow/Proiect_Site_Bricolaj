@@ -1,0 +1,54 @@
+<div class="container mt-5">
+    <h1>Neata man, <%= nume %>
+    </h1>
+    <div class="d-flex mt-3">
+        <form action="/creare-bd" method="GET" class="me-2">
+            <button type="submit" class="btn btn-primary">Creare BD</button>
+        </form>
+        <form action="/inserare-bd" method="GET" class="me-2">
+            <button type="submit" class="btn btn-success">Incarcare BD</button>
+        </form>
+        <form action="/sterge-bd" method="GET" class="me-2">
+            <button type="submit" class="btn btn-danger">Sterge BD</button>
+        </form>
+    </div>
+    <div class="mt-5">
+        <h2>Stocul produselor disponibile:</h2>
+        <br />
+        <table class="Cos">
+            <thead>
+                <tr>
+                    <th style="padding-right: 30px;">Produs</th>
+                    <th style="padding-right: 30px;">Stoc</th>
+                    <th style="padding-right: 30px;">Pret/unitate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% produse.forEach(function(produs) { %>
+                    <tr>
+                        <td style="padding-right: 30px;">
+                            <%= produs.Nume %>
+                        </td>
+                        <td style="padding-right: 30px;">
+                            <%= produs.Cantitate %>
+                        </td>
+                        <td style="padding-right: 30px;">
+                            <%= produs.Pret %>
+                        </td>
+                        <td style="padding-right: 30px;">
+                            <% if (req.session.user) { %>
+                                <form action="/adauga-in-cos" method="POST">
+                                    <input type="hidden" name="produsId" value="<%= produs.Id %>">
+                                    <button type="submit" class="btn btn-primary">Adauga in Cos</button>
+                                </form>
+                                <% } else { %>
+                                    <button class="btn btn-primary" disabled>Adauga in Cos</button>
+                                    <% } %>
+                        </td>
+
+                    </tr>
+                    <% }); %>
+            </tbody>
+        </table>
+    </div>
+</div>

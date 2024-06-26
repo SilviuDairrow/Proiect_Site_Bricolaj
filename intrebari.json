@@ -1,0 +1,134 @@
+[
+    {
+        "id": 0,
+        "intrebare": "Care este cea mai bună cărămidă?",
+        "variante": [
+            "Cărămidă din beton",
+            "Cărămidă din argilă arsă",
+            "Cărămidă de inginerie",
+            "Cărămidă reciclată"
+        ],
+        "corect": 1
+    },
+    {
+        "id": 1,
+        "intrebare": "Care este cel mai folosit lemn pentru construcția caselor?",
+        "variante": [
+            "Lemn de pin/brad",
+            "Lemn de molid",
+            "Lemn de stejar",
+            "Lemn de cedru roșu"
+        ],
+        "corect": 0
+    },
+    {
+        "id": 2,
+        "intrebare": "Care este cel mai utilizat și rezistent beton pentru construcția caselor?",
+        "variante": [
+            "Beton autocompactant",
+            "Beton cu fibra de sticlă",
+            "Beton cu agregare usoară",
+            "Beton armat"
+        ],
+        "corect": 3
+    },
+    {
+        "id": 3,
+        "intrebare": "Care este tipul de teren ce usurează ridicarea unei case?",
+        "variante": [
+            "Teren ăn pantă",
+            "Teren în mlaștină",
+            "Teren plat",
+            "Teren stâncos"
+        ],
+        "corect": 2
+    },
+    {
+        "id": 4,
+        "intrebare": "Care este intrumentul folosit pentru tăierea precisă a lemului?",
+        "variante": [
+            "Ciocan",
+            "Topor",
+            "Fierăstrău zimțat",
+            "Fierăstrău circular"
+        ],
+        "corect": 3
+    },
+    {
+        "id": 5,
+        "intrebare": "Ce importanță are nivelul apei în timpul lucrărilor de șantier?",
+        "variante": [
+            "Măsurarea temperaturii",
+            "Verificarea alinierii și nivelării",
+            "Găurirea corectă pentru șuruburi",
+            "Șlefuirea suprafețelor"
+        ],
+        "corect": 1
+    },
+    {
+        "id": 6,
+        "intrebare": "Ce tip de șurub este folosit pentru fixarea lemnului mai moale?",
+        "variante": [
+            "Șurub autotăpătoare",
+            "Șurub de fier",
+            "Șuruburi cu șanțuri",
+            "Șuruburi cu vârf de carbură de tungsten"
+        ],
+        "corect": 1
+    },
+    {
+        "id": 7,
+        "intrebare": "Care este cel mai potrivit material pentru etanșarea ușilor și ferestrelor?",
+        "variante": [
+            "Vopsea",
+            "Pardoseală flotantă",
+            "Silicon",
+            "Glet"
+        ],
+        "corect": 1
+    },
+    {
+        "id": 8,
+        "intrebare": "Ce material este folosit pentru finisarea pereților interiori?",
+        "variante": [
+            "Gresie",
+            "Piatră naturală",
+            "Gips-carton",
+            "Marmură"
+        ],
+        "corect": 2
+    },
+    {
+        "id": 9,
+        "intrebare": "Ce substanță este folosită pentru protejarea lemnului?",
+        "variante": [
+            "Vopsea acrilică",
+            "Ulei columbian",
+            "Ceară de albine",
+            "Ulei de in"
+        ],
+        "corect": 3
+    },
+    {
+        "id": 10,
+        "intrebare": "Care este cea mai dificilă problemă pentru un inginer de construcții?",
+        "variante": [
+            "Costul lucrării",
+            "Problematica existențilă",
+            "Disocierea sinelui",
+            "Incadrarea în societate"
+        ],
+        "corect": 0
+    },
+    {
+        "id": 11,
+        "intrebare": "De ce își doresc oamenii o locuință?",
+        "variante": [
+            "Se conformează cu predica bibliei",
+            "Completarea piramidei nevoilor (Maslow)",
+            "Frica de apă și vânt",
+            "Toate variantele"
+        ],
+        "corect": 3
+    }
+]

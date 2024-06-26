@@ -1,0 +1,23 @@
+<head>
+    <title>Chesetionar</title>
+</head>
+
+<body>
+    <h1>Chestionar cunoștiințe bricolaj</h1>
+    <form action="/rezultat-chestionar" method="post">
+        <% for(let i=0; i < intrebari.length; i++) { %>
+            <div>
+                <p>Întrebarea <%= i + 1 %>: <%= intrebari[i].intrebare %>
+                </p>
+                <% for(let j=0; j < intrebari[i].variante.length; j++) { %>
+                    <input type="radio" id="intrebare<%= i %>varianta<%= j %>" name="intrebare<%= i %>" value="<%= j %>"
+                        required>
+                    <label for="intrebare<%= i %>varianta<%= j %>">
+                        <%= intrebari[i].variante[j] %>
+                    </label><br>
+                    <% } %>
+            </div>
+            <% } %>
+                <button type="submit">Trimite</button>
+    </form>
+</body>

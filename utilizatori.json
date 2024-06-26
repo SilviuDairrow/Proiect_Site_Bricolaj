@@ -1,0 +1,30 @@
+[
+    {
+        "idUser": "rexAdmin",
+        "password": "rexAdmin",
+        "nume": "Rex",
+        "prenume": "Bibanu",
+        "email": "test@rex.com"
+    },
+    {
+        "idUser": "Silviu",
+        "password": "12345",
+        "nume": "Secan",
+        "prenume": "Silviu",
+        "email": "sigma@gmail.com"
+    },
+    {
+        "idUser": "guest",
+        "password": "guest",
+        "nume": "guestnume",
+        "prenume": "guestprenume",
+        "email": "guest@guest.com"
+    },
+    {
+        "idUser": "test",
+        "password": "test",
+        "nume": "test",
+        "prenume": "test",
+        "email": "test@test.com"
+    }
+]
